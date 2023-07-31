@@ -1,1 +1,53 @@
-‎‎​
+
+.readmore.fn_readmore *:last-of-type {
+  margin-bottom: 0;
+}
+
+.readmore.fn_readmore>p:last-of-type,
+.readmore.fn_readmore>div:last-of-type,
+.readmore.fn_readmore>ul:last-of-type,
+.readmore.fn_readmore>ol:last-of-type,
+.readmore.fn_readmore>blockquote:last-of-type,
+.readmore.fn_readmore>br:last-of-type,
+.readmore.fn_readmore>hr:last-of-type,
+.readmore.fn_readmore>fieldset:last-of-type,
+.readmore.fn_readmore>figure:last-of-type,
+.readmore.fn_readmore>pre:last-of-type,
+.readmore.fn_readmore>address:last-of-type,
+.readmore.fn_readmore>table:last-of-type {
+  margin-bottom: 0;
+}
+
+.readmore.fn_readmore br:last-of-type {
+  display: none;
+}
+
+
+/*scss*/
+
+
+
+.readmore.fn_readmore {
+  *:last-of-type {
+    margin-bottom: 0;
+  }
+
+  > p:last-of-type,
+  > div:last-of-type,
+  > ul:last-of-type,
+  > ol:last-of-type,
+  > blockquote:last-of-type,
+  > br:last-of-type,
+  > hr:last-of-type,
+  > fieldset:last-of-type,
+  > figure:last-of-type,
+  > pre:last-of-type,
+  > address:last-of-type,
+  > table:last-of-type {
+    margin-bottom: 0;
+  }
+
+  br:last-of-type {
+    display: none;
+  }
+}
