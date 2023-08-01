@@ -1,1 +1,66 @@
-‎‎​
+// ================== therapy-help
+
+.therapy-help {
+	// .therapy-help__container
+	&__container {}
+	// .therapy-help__body
+	&__body {}
+	// .therapy-help__column
+	&__column {}
+	// .therapy-help__images
+	&__images {}
+	// .therapy-help__image
+	&__image {}
+	// .therapy-help__info
+	&__info {}
+	// .therapy-help__title
+	&__title {}
+	// .therapy-help__items
+	&__items {}
+	// .therapy-help__item
+	&__item {}
+	// .therapy-help__label
+	&__label {}
+	// .therapy-help__text
+	&__text {}
+	// .therapy-help__button
+	&__button {}
+}
+
+@include media-breakpoint-up(lg) {
+	.therapy-help {
+		&__container {}
+
+		&__body {}
+
+		&__column {}
+
+		&__images {}
+
+		&__image {}
+
+		&__info {}
+
+		&__title {}
+
+		&__items {}
+
+		&__item {}
+
+		&__label {}
+
+		&__text {}
+
+		&__button {}
+	}
+
+}
+@include media-breakpoint-up(md) {}
+@include media-breakpoint-up(sm) {}
+
+@include media-breakpoint-down(lg) {}
+@include media-breakpoint-down(md) {}
+@include media-breakpoint-down(sm) {}
+
+
+// ================== therapy-help [END]
